@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Raleway:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.querySelector("button");
+    const links = document.querySelector(".aaa");
+
+    menuButton.addEventListener("click", () => {
+      links.classList.toggle("hidden"); // Toggle the 'hidden' class on small screens
+    });
+  });
+</script>
+
+<body>
+  <div >
+    <div class="mx-24">
+      <nav class="bg-white h-14 max-w-7xl flex items-center py-16 justify-between">
+          <div>
+              <a href="" class="flex text-xl font-bold font-quicksand">
+                <img src="img/favicon.ico" alt="taxpal_logo" class="w-8 h-8">
+                <div><span>Tax</span><span class="text-blue-500">Pal</span></div>
+              </a>
+          </div>
+          <div class=" aaa font-quicksand h-full text-black items-center space-x-12 hidden md:flex">
+              <a href="" class="">Home</a>
+              <a href="">About Us</a>
+              <a href="">Contacts</a>
+              <a href="">Founders</a>
+          </div>
+
+          <button class="md:hidden flex items-center">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+      </nav>
+      <div class="flex flex-col items-center py-36">
+        <div class="text-7xl font-semibold text-center">Accounting <span class="text-blue-500">made simple</span> <br> for small buisnesses</div>
+        <div class="text-xl px-80 py-8 text-center">Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.  </div>
+        <div  class="flex space-x-8 ">
+          <a class=" inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900">Get 6 months free</a>
+          <!-- <div class="border-spacing-1 border-black rounded-md"><button class="p-2">Get 6 months free</button></div> -->
+          <div><a class="py-2 px-4 rounded-full inline-flex bg-none focus:outline-none ring-1 ring-gray-400 text-gray-700 hover:ring-slate-900 hover:text-gray-900 items-center space-x-2"><i class="fa-solid fa-play fa-beat" style="color: #74C0FC;"></i> <span>Watch video</span></a></div>
+        </div>
+      </div>
+      <div>
+        <div class="flex justify-center pt-4">Trusted by these six companies so far</div>
+        <div class="space-y-8">
+          <div class="flex justify-center space-x-12">
+            <img src="https://salient.tailwindui.com/_next/static/media/transistor.7274e6c3.svg" alt="">
+            <img src="https://salient.tailwindui.com/_next/static/media/tuple.74eb0ae0.svg" alt="">
+            <img src="https://salient.tailwindui.com/_next/static/media/statickit.d7937794.svg" alt="">
+            <img src="https://salient.tailwindui.com/_next/static/media/mirage.18d2ec4e.svg" alt="">
+            <img src="https://salient.tailwindui.com/_next/static/media/laravel.7deed17e.svg" alt="">
+            <img src="https://salient.tailwindui.com/_next/static/media/statamic.6da5ebfb.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="mx-0 px-0"><img src="https://salient.tailwindui.com/_next/static/media/background-features.5f7a9ac9.jpg" alt="" class="mx-0 px-0"></div>
+  </div>
+  </body>
+</html>

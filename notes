@@ -1,0 +1,32 @@
+<!-- <!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class=" mx-auto max-w-7xl py-10">
+            <nav class="flex justify-between">
+                <div class="flex">
+                    <a href="" class="flex font-bold font-quicksand text-xl ">
+                        <div class="w-9 h-9"><img src="/src/img/favicon.ico" alt="taxpal_logo" class="max-w-full h-auto"></div>
+                        <span>Tax<span class="text-blue-400">Pal</span></span>
+                    </a>
+                    <div class="flex justify-center">
+                        <a href="">Features</a>
+                        <a href="`">Testimonials</a>
+                        <a href="">Pricing</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="">Sign in</a>
+                    <a href="">Get started today</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+</body>
+</html> -->
